@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-color: bisque; 
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color: cadetblue;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header{
+     
+}
+.profile{
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 20px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(7, 38, 95);
+}
+.header-contact{
+    float: right;
+    padding: 20px;
+}
+.header-contact a{
+     text-decoration: none;
+     color: darkcyan;
+     font-weight: bold;
+
+}
+.header-contact a:hover{
+     text-decoration: underline;
+     color: rgb(34, 25, 4);
+}
+.div-clear{
+    clear: both;
+    }
+    hr{
+        border: solid black 3px;
+        width: 100%;
+        margin: 20px auto;
+        border-bottom: none;
+    }
+    /* personal section start */
+ #personal-section{
+
+ }   
+.content{
+    margin-bottom: 30px;
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+}
+.common-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px;
+}
+
+/* education */
+.edu-template-left{
+     float: left;
+     width: 45%;
+
+
+}
+.edu-template-right{
+    float: right;
+    width: 45%;
+
+}
+.bottom-container{
+    background-color: black;
+    text-align: center;
+    padding: auto;
+    color: blanchedalmond;
+}
+.bottom-container a{
+    color: blanchedalmond;
+    text-decoration: none;
+    margin: 20px;
+}
+.bottom-container p{
+    color: blanchedalmond;
+    margin: 20px;
+}
